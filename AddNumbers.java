@@ -356,11 +356,14 @@ public class SelectionSort {
     }
 }
 
-public class InsertionSort {
+public class insertion sort {
     public static void main(String[] args) {
+
         int[] arr = {12, 11, 13, 5, 6};
 
+        // Insertion Sort
         for (int i = 1; i < arr.length; i++) {
+
             int key = arr[i];
             int j = i - 1;
 
@@ -372,11 +375,12 @@ public class InsertionSort {
             arr[j + 1] = key;
         }
 
-        for (int num : arr)
+        // Print sorted array
+        for (int num : arr) {
             System.out.print(num + " ");
+        }
     }
-}import java.io.*;
-import java.util.*;
+ 
 
 class Student {
     private int id;
